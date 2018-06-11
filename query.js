@@ -18,7 +18,7 @@ var fabric_client = new Fabric_Client();
 
 // setup the fabric network
 var channel = fabric_client.newChannel('skillbillchannel');
-var peer = fabric_client.newPeer('grpc://10.0.0.4:7051');
+var peer = fabric_client.newPeer('grpc://10.0.0.6:7051');
 channel.addPeer(peer);
 
 //
